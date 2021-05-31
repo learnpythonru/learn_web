@@ -3,7 +3,7 @@ import sys
 
 from webapp import create_app
 from webapp.db import db
-from webapp.news.models import User
+from webapp.user.models import User
 
 app = create_app()
 
